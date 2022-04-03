@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-const { quotes } = require('./data');
-const { getRandomElement } = require('./utilities');
+const { quotes } = require('./modules/data');
+const { getRandomElement } = require('./modules/utilities');
 
 const PORT = process.env.PORT || 4001;
 
